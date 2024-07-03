@@ -11,5 +11,6 @@ public interface lUsuario {
 	public void EliminarUsuario (TblUsuariocl3 usuario);
 	public TblUsuariocl3 BuscarUsuario (TblUsuariocl3 usuario);
 	public List<TblUsuariocl3> ListadoUsuario();
+	public TblUsuariocl3 ValidarUsuario(String usuario, String contraseña);
 
 }
